@@ -1,10 +1,10 @@
 function Tweet({ username, name, date, message }) {
   return (
-    <div>
-      <span></span>
-      <span></span>
-      <span></span>
-      <p></p>
+    <div className="tweet">
+      <span>{name}</span>
+      <span className="username">{username}</span>
+      <span className="date">{date}</span>
+      <p>{message}</p>
     </div>
   );
 }
