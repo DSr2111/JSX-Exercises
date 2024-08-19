@@ -1,5 +1,6 @@
 const MAX_NAME_LENGTH_SHOWN = 6;
 
+const hobbiesLI = hobbies.map((hobby) => <li>{hobby}</li>);
 function Person({ age, hobbies, name }) {
   return (
     <div>
@@ -8,7 +9,10 @@ function Person({ age, hobbies, name }) {
         <li>Name: {name.slice(0, MAX_NAME_LENGTH_SHOWN)}</li>
         <li>Age: {age}</li>
       </ul>
-      <ul>Hobbies:</ul>
+      <ul>
+        Hobbies:
+        {hobbiesLIs}
+      </ul>
     </div>
   );
 }
