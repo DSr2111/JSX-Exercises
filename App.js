@@ -1,8 +1,24 @@
 function App() {
   return (
     <div>
-      <FirstComponent />
-      <NamedComponent name="Diego" />
+      <Tweet
+        name={"Diego"}
+        username={"dsr21"}
+        date={new Date().toDateString()}
+        message={"loremipsum"}
+      />
+      <Tweet
+        name={"Diego"}
+        username={"dsr21"}
+        date={new Date().toDateString()}
+        message={"loremipsum"}
+      />
+      <Tweet
+        name={"Diego"}
+        username={"dsr21"}
+        date={new Date().toDateString()}
+        message={"loremipsum"}
+      />
     </div>
   );
 }
