@@ -1,7 +1,7 @@
 const MAX_NAME_LENGTH_SHOWN = 6;
 
-const hobbiesLI = hobbies.map((hobby) => <li>{hobby}</li>);
 function Person({ age, hobbies, name }) {
+  const hobbiesLI = hobbies.map((hobby) => <li>{hobby}</li>);
   return (
     <div>
       <p>Learn some information about this person:</p>
